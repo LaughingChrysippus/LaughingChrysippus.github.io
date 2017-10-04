@@ -4,9 +4,9 @@ document.body.style.backgroundImage = 'url(https://unsplash.it/' + window.innerW
 var searchbox = document.getElementById('search');
 var searchbutton = document.getElementById('button-search')
 
-window.onload = function() {
-    var input = searchbox.focus();
-};
+// window.onload = function() {
+//    var input = searchbox.focus();
+//};
 
 searchbox.onkeypress = function(e) {
 	if (e.keyCode === 13) {
